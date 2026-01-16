@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="NovaStudio">
+    <meta name="description" content="Criação de sites rápidos, funcionais e profissionais em HTML, CSS e JavaScript.">
+
+    <title>NovaStudio</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html" class="home-button"><span class="product"></span></a>
+
+            <ul class="menu">
+                <li><a href="/index.html#home">Início</a></li>
+                <li><a href="/index.html#sobre">Sobre</a></li>
+                <li><a href="/index.html#servicos">Serviços</a></li>
+                <li><a href="/pages/projects.html">Projetos & Avaliações</a></li>
+                <li><a href="/index.html#contato">Contato & FAQ</a></li>
+                <li><a href="/pages/policies.html">Políticas & Termos</a></li>
+                <button id="menu-toggle">☰</button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <aside id="lateral-menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <hr>
+                    <li><a href="index.html#sobre">Sobre</a></li>
+                    <li><a href="index.html#servicos">Serviços</a></li>
+                    <li><a href="pages/projects.html">Projetos & Avaliações</a></li>
+                    <li><a href="index.html#contato">Contato & FAQ</a></li>
+                    <li><a href="pages/policies.html">Políticas & Termos</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <section id="home">
+            <h2>Transformando suas ideias em sites funcionais</h2>
+            <p>Faça agora um orçamento sem compromisso clicando no botão abaixo:</p>
+            <button class="main-button"id="quote">Orçamento</button>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre</h2>
+            <p>
+                A <span class="customer"></span> é um pequeno estúdio focado na criação de sites rápidos e funcionais,
+                pensando em auxiliar profissionais, pequenas empresas e projetos a terem uma presença digital clara
+                e confiável.
+            </p>
+            <p>
+                Trabalhamos com sites estáticos, leves e bem estruturados, priorizando desempenho, organização
+                e facilidade para quem os visita. Cada projeto é planejado de forma personalizada, de acordo
+                com as necessidades, gostos e objetivos de cada cliente.
+            </p>
+            <p>
+                Acreditamos que um bom site não precisa ser complexo, precisa ser bem feito. Por isso,
+                nosso processo é simples, direto e transparente, garantindo uma experiência fácil e de qualidade.
+            </p>
+            <p>
+                Mais do que entregar páginas, buscamos entregar clareza, identidade e confiança para quem
+                deseja apresentar seu trabalho na internet de forma profissional.
+            </p>
+        </section>
+
+        <section id="servicos">
+            <h2>Serviços</h2>
+
+            <p>
+                Na <span class="customer"></span>, oferecemos pacotes de sites estáticos simples, funcionais e interativos.
+                Trabalhamos com HTML5, CSS3 e JavaScript, garantindo velocidade, segurança e fácil manutenção.
+                Todos os sites podem ser hospedados no
+                <a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/what-is-github-pages">
+                    GitHub Pages</a>,
+                com controle de versões e manutenção inicial quando necessário.
+            </p>
+
+            <h3>Nossos Planos</h3>
+
+            <details>
+                <summary>Econômico</summary>
+                <div>
+                    <p><strong>Valor:</strong> a partir de R$ 98,99</p>
+
+                    <p><strong>Inclui:</strong></p>
+                    <ul>
+                        <li>1 página</li>
+                        <li>Design básico (cores, tipografia simples e logo principal e secundário)</li>
+                        <li>Formulário e botões de contato para WhatsApp e e-mail</li>
+                        <li>Menu básico com âncoras</li>
+                        <li>Responsividade simples</li>
+                        <li>Hospedagem em domínio já existente</li>
+                        <li>1 sessão de manutenção gratuita</li>
+                        <li>Integração com <a href="https://usebasin.com/">Basin</a> (plano gratuito)</li>
+                        <li>Páginas "404" e "sucess" simples</li>
+                    </ul>
+
+                    <p><strong>Não inclui:</strong></p>
+                    <ul>
+                        <li>Imagens</li>
+                        <li>Animações</li>
+                        <li>Design personalizado</li>
+                        <li>Responsividade avançada</li>
+                        <li>Iframes</li>
+                        <li>Backup de versões no GitHub</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary>Padrão</summary>
+                <div>
+                        <p><strong>Valor:</strong> a partir de R$ 198,99</p>
+
+                    <p><strong>Inclui:</strong></p>
+                    <ul>
+                        <li>Até 3 páginas</li>
+                        <li>Design personalizado</li>
+                        <li>Até 10 imagens (conforme a <a href="pages/policies.html">Política de Imagens</a>)</li>
+                        <li>
+                            Formulário e botões de contato para WhatsApp e e-mail,
+                            com sistema de segurança HoneyPot simples
+                        </li>
+                        <li>Menu personalizado</li>
+                        <li>Responsividade avançada</li>
+                        <li>1 iframe já existente</li>
+                        <li>Animações simples</li>
+                        <li>Hospedagem em domínio já existente</li>
+                        <li>Até 3 sessões de manutenção gratuita</li>
+                        <li>Integração com <a href="https://usebasin.com/">Basin</a> (plano gratuito)</li>
+                        <li>Páginas "404" e "sucess" personalizadas</li>
+                    </ul>
+
+                    <p><strong>Não inclui:</strong></p>
+                    <ul>
+                        <li>Busca de imagens</li>
+                        <li>Animações personalizadas</li>
+                        <li>Backup de versões no GitHub</li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary>Premium</summary>
+                <div>
+                        <p><strong>Valor:</strong> a partir de R$ 298,99</p>
+
+                    <p><strong>Inclui:</strong></p>
+                    <ul>
+                        <li>Até 5 páginas</li>
+                        <li>Design completo e planejado, com animações personalizadas</li>
+                        <li>Até 25 imagens (conforme a <a href="pages/policies.html">Política de Imagens</a>)</li>
+                        <li>
+                            Formulário e botões de contato para WhatsApp e e-mail,
+                            com sistema de segurança HoneyPot simples e verificação via
+                            <a href="https://www.cloudflare.com/pt-br/">Cloudflare</a>
+                        </li>
+                        <li>Menu personalizado</li>
+                        <li>Responsividade avançada</li>
+                        <li>1 iframe já existente</li>
+                        <li>1 iframe personalizado</li>
+                        <li>
+                            Hospedagem em domínio já existente ou no
+                            <a href="https://docs.github.com/pt/pages/getting-started-with-github-pages/what-is-github-pages">
+                                GitHub Pages
+                            </a>
+                        </li>
+                        <li>Manutenção do site por 30 dias, com backup de versões</li>
+                        <li>
+                            Integração com <a href="https://usebasin.com/">Basin</a> e
+                            <a href="https://www.cloudflare.com/pt-br/">Cloudflare</a> (planos gratuitos)
+                        </li>
+                        <li>Páginas "404" e "sucess" completas</li>
+                    </ul>
+                </div>
+            </details>
+
+            <p>
+                Os valores descritos acima podem alterar de 
+                acordo com a complexidade do pedido.
+            </p>
+
+            <h3>Serviços Extras</h3>
+
+            <details>
+                <summary>Atualização de site existente</summary>
+                <div>
+                    <p><strong>Valor:</strong> R$ 25 a R$ 50</p>
+                    <p>Criação de nova página ou ajustes simples em um site já existente.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Animações e efeitos</summary>
+                <div>
+                    <p><strong>Valor:</strong> R$ 20 a R$ 30</p>
+                    <p>Inclusão ou atualização de animações em CSS3 para sites HTML.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Iframe personalizado</summary>
+                <div>
+                    <p><strong>Valor:</strong> R$ 20 a R$ 30</p>
+                    <p>Criação de iframe HTML personalizado para integração ao site.</p>
+                </div>
+            </details>
+
+            <details>
+                    <summary>Inspeção ou manutenção pontual</summary>
+                    <div>
+                        <p><strong>Valor:</strong> R$ 25 a R$ 40</p>
+                        <p>Inspeção e manutenção pontual em sites já existentes.</p>
+                    </div>
+            </details>
+
+            <details>
+                    <summary>Hospedagem personalizada</summary>
+                    <div>
+                        <p><strong>Valor:</strong> R$ 30 + custo do domínio</p>
+                        <p>Configuração de hospedagem em domínio personalizado para sites existentes.</p>
+                    </div>
+            </details>
+
+            <details>
+                <summary>Upgrade e configuração de plano Basin</summary>
+                <div>
+                    <p><strong>Valor:</strong> R$ 30 + custo do plano</p>
+                    <p>Configuração e upgrade do plano Basin para aprimorar formulários.</p>
+                </div>
+            </details>
+
+            <details>
+                <summary>Upgrade e configuração de plano Cloudflare</summary>
+                <div>
+                    <p><strong>Valor:</strong> R$ 30 + custo do plano</p>
+                    <p>
+                        Configuração e upgrade do plano Cloudflare para melhorar segurança
+                        e monitoramento de tráfego.
+                    </p>
+                </div>
+            </details>
+        </section>
+
+        <section id="contato">
+            <h2>Contato & FAQ</h2>
+            <details>
+                <summary>FAQ - Perguntas Frequentes</summary>
+                <div>
+                    <ul id="faq">
+                        <li>
+                            <h3>Que tipo de site a NovaStudio oferece?</h3>
+                            <p>
+                                Desenvolvemos sites estáticos rápidos, funcionais e responsivos,
+                                ideais para profissionais, pequenas empresas e projetos que precisam
+                                de uma presença online clara e confiável.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>Os sites funcionam em celular e tablet?</h3>
+                            <p>
+                                Sim. Todos os sites são desenvolvidos com responsividade,
+                                garantindo boa visualização em celulares, tablets e computadores.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>Posso pedir alterações depois que o site estiver pronto?</h3>
+                            <p>
+                                Sim. Cada plano inclui um número definido de sessões de manutenção gratuita.
+                                Alterações adicionais podem ser contratadas como serviço extra.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>A NovaStudio desenvolve sites com sistema de login ou banco de dados?</h3>
+                            <p>
+                                Não. Trabalhamos exclusivamente com sites estáticos.
+                                Funcionalidades dinâmicas podem ser integradas por serviços externos,
+                                quando aplicável.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>A NovaStudio fornece domínio e hospedagem?</h3>
+                            <p>
+                                A hospedagem pode ser feita em domínio já existente ou no GitHub Pages.
+                                O domínio deve ser adquirido pelo cliente, podendo ser configurado
+                                com nossa ajuda.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>Quanto tempo leva para o site ficar pronto?</h3>
+                            <p>
+                                O prazo varia conforme o plano e a complexidade do projeto,
+                                mas normalmente os sites são entregues em poucos dias após o
+                                envio de todas as informações necessárias.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>O site terá formulário de contato?</h3>
+                            <p>
+                                Sim. Todos os planos incluem formulário de contato,
+                                com integração a serviços externos e medidas básicas
+                                de segurança contra spam.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>A NovaStudio cria o conteúdo do site?</h3>
+                            <p>
+                                O conteúdo textual e as imagens devem ser fornecidos pelo cliente.
+                                Caso necessário, orientamos sobre estrutura e organização do conteúdo.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>É possível atualizar um site já existente?</h3>
+                            <p>
+                                Sim. Oferecemos serviços de atualização, ajustes e manutenção para sites
+                                já existentes, mesmo que não tenham sido desenvolvidos pela NovaStudio.
+                            </p>
+                        </li>
+
+                        <li>
+                            <h3>Como funciona o pagamento dos serviços?</h3>
+                            <p>
+                                O pagamento é acordado antes do início do projeto,
+                                de acordo com o plano escolhido e os serviços contratados.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </details>
+
+            <details>
+                <summary>Meios de contato</summary>
+                <div>
+                    <p>Whatsapp: <a href="https://wa.me/5511994014070?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento"><span
+                                class="tel"></span></a></p>
+                    <p>E-mail: <a
+                            href="mailto:novastudio053@gmail.com?subject=Orçamento%20de%20site&body=Olá,%20quero%20solicitar%20um%20orçamento"><span
+                                class="email"></span></a></p>
+
+                    <fieldset>
+                        <legend>Entre em contato</legend>
+                        <form action="https://usebasin.com/f/c1718b465804">
+                            <input type="text" id="name" placeholder="Insira seu nome...">
+                            <input type="text" id="email" placeholder="Insira seu e-mail...">
+                            <input type="text" id="phone" placeholder="Insira seu telefone..." tabindex="-1" autocomplete="off" aria-hidden="true" style="display: none;">
+                            <textarea id="message" placeholder="Insira sua mensagem..."></textarea>
+                            <button id="send">Enviar</button>
+                        </form>
+                    </fieldset>
+                </div>
+            </details>
+        </section>
+    </main>
+
+    <footer>
+        <nav>
+            <a href="index.html" class="home-button"><span class="product"></span></a>
+
+            <ul class="menu">
+                <li><a href="https://wa.me/5511994014070?text=Ol%C3%A1%2C%20quero%20um%20or%C3%A7amento"><span
+                            class="tel"></span></a></li>
+                <li><a href="mailto:novastudio053@gmail.com?subject=Orçamento%20de%20site&body=Olá,%20quero%20solicitar%20um%20orçamento"><span
+                            class="email"></span></a></li>
+            </ul>
+        </nav>
+
+        <hr>
+
+        <nav>
+            <p>&copy; <span class="year"></span> <span class="customer"></span> - Todos os direitos reservados.</p>
+
+            <ul class="menu">
+                <li><a href="pages/policies.html">Privacidade</a></li>
+                <li><a href="pages/policies.html">Termos de serviço</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+<script src="assets/js/script.js" defer></script>
+
+</html>
