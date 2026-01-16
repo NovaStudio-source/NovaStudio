@@ -1,4 +1,4 @@
-const INFO = {
+const INFO = { //<-- Only public info
     product: "NovaStudio",
     customer: "NovaStudio",
     tel: "+55 (11) 99401-4070",
@@ -60,4 +60,5 @@ details.forEach((det) => {
             })
         }
     })
+
 })
