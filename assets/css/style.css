@@ -47,6 +47,7 @@ body {
     color: var(--font-primary-color);
     display: flex;
     flex-direction: column;
+    zoom: 0.7;
 }
 
 body::before {
@@ -268,7 +269,8 @@ main a:hover {
     font-family: 'Roboto Condensed';
     font-weight: bold;
     padding: 1rem;
-    width: 90%;
+    width: 60%;
+    max-width: 73vh;
     align-self: center;
     background-color: var(--secondary-color);
     border: none;
@@ -443,3 +445,4 @@ footer nav {
         display: none;
     }
 }
+
